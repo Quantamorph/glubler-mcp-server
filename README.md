@@ -99,7 +99,7 @@ OpenCowork should start the MCP server as a local **stdio** process.
 | Setting | Value |
 |---|---|
 | Name | `Glubler` |
-| Type : STDIO
+| Type | STDIO |
 | Command | `node` |
 | Arguments | `D:\glubler-mcp-server\dist\index.js` | put you path
 | Environment Variables
