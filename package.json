@@ -1,0 +1,30 @@
+{
+  "name": "@glubler/mcp-server",
+  "version": "0.1.0",
+  "description": "Glubler Model Context Protocol (MCP) Server",
+  "type": "module",
+  "bin": {
+    "glubler-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "glubler",
+    "ai",
+    "model-context-protocol"
+  ],
+  "author": "Glubler",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.19",
+    "typescript": "^5.7.3"
+  }
+}
