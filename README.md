@@ -103,8 +103,8 @@ OpenCowork should start the MCP server as a local **stdio** process.
 | Command | `node` |
 | Arguments | `D:\glubler-mcp-server\dist\index.js` | put you path
 | Environment Variables
-| NOTION TOKEN : GLUBLER_AUTH_TOKEN
-| ENTER VALUE : Your Glubler MCP/API token
+| NOTION TOKEN | GLUBLER_AUTH_TOKEN |
+| ENTER VALUE | Your Glubler MCP/API token |
 
 If OpenCowork asks for a single command line, use:
 
